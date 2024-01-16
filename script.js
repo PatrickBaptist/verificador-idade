@@ -15,43 +15,43 @@ function verificar() {
         if (fsex[0].checked) {
             genero = 'homem'
             if (idade >= 0 && idade < 5) {
-                //crianca
+              
                 img.src = './imagens/bebem.png'
             } else if (idade < 15) {
-                //crianca
+               
                 img.setAttribute('src', 'imagens/criancam.png')
             } else if(idade < 21) {
-                //jovem
+             
                 img.setAttribute('src', 'imagens/adolescentem.png')
             } else if(idade < 50) {
-                //adulto
+           
                 img.setAttribute('src', 'imagens/adultom.png')
             } else if(idade < 70) {
-                    //medio idoso
-                    img.setAttribute('src', 'imagens/medioidosom.png')
+                 
+                img.setAttribute('src', 'imagens/medioidosom.png')
             }else {
-                //idoso
+              
                 img.setAttribute('src', 'imagens/idosom.png')
             }
             }else if (fsex[1].checked) {
                 genero = 'mulher'
                 if (idade >= 0 && idade < 5) {
-                    //crianca
+              
                     img.setAttribute('src', 'imagens/bebef.png')
                 } else if (idade < 15) {
-                    //crianca
+             
                     img.setAttribute('src', 'imagens/criancaf.png')
                 } else if(idade < 21) {
-                    //jovem
+              
                     img.setAttribute('src', 'imagens/adolescentef.png')
                 } else if(idade < 50) {
-                    //adulto
+               
                     img.setAttribute('src', 'imagens/adultof.png')
                 } else if(idade < 70) {
-                    //medio idoso
+                
                     img.setAttribute('src', 'imagens/medioidosof.png')
                 }else {
-                    //idoso
+              
                     img.setAttribute('src', 'imagens/idosof.png')
                 }
             }
